@@ -3,27 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
 import plotly.express as px
-from matplotlib.ticker import PercentFormatter
-from sklearn.datasets import load_boston
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
-from sklearn import metrics
-from sklearn import preprocessing
-from sklearn import utils
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import RepeatedKFold
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import ParameterGrid
-from sklearn.inspection import permutation_importance
 import multiprocessing
 import warnings
 import seaborn as sns
 import datetime as dt
 from datetime import datetime
 from skimage import io
-warnings.filterwarnings('ignore', '.*do not.*')
 
 
 st.set_page_config(page_title="Exel Pitss",
