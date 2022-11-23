@@ -1,6 +1,11 @@
-streamlit
+pandas
 numpy
 matplotlib
-pandas
+streamlit
 plotly
-skimage
+multiprocessing
+warnings
+seaborn 
+datetime 
+datetime
+skimage 
